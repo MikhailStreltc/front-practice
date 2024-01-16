@@ -18,7 +18,7 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <RedButton onClick={increaseClicks}>Do not Push!</RedButton>
-        <Counter>И всё же ты нажал {clicks}</Counter>
+        <Counter>И всё же ты нажал {clicks} раз</Counter> {/* как сделать раз/разы */}
         <BlueButton onClick={resetClicks}>reset</BlueButton>
       </header>
     </div>
