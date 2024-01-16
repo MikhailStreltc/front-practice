@@ -53,11 +53,11 @@ const Counter = styled.p({
 const BlueButton = styled.button({
   height: 50,
   width: 200,
-  backgroundColor: '#00FFFF',
+  backgroundColor: '#0000FF',
   color: '#FFFFFF',
-  fontSize: 15,
+  fontSize: 18,
   fontWeight: 700,
-  borderRadius: '33%',
-  border: '3px #FFFFFF',
+  borderRadius: '15px',
+  border: '2px solid #FFFFFF',
   cursor: 'pointer',
 });
